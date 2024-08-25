@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AD70C0BA-1C70-4647-B80C-B270795E39B3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EE4C371-9248-4737-831F-D1244EC10E6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/ArtworkRemoteService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getArtworks()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FD78146-E21F-44BA-9ABD-36668C97CCE2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "hit(with:decoder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "832E6910-DB55-4E44-9571-40CD33BD6B20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "hit(with:decoder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "832E6910-DB55-4E44-9571-40CD33BD6B20 - 36a100721d4ba6d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Artworks.HTTPUtility.hit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(with: Foundation.URLRequest, decoder: Foundation.JSONDecoder) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Artworks.RemoteError&gt;"
+                  moduleName = "Artworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avii/Desktop/My%20Projects/Artworks/Artworks/Data/Remote/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "832E6910-DB55-4E44-9571-40CD33BD6B20 - b12493b1dd66d384"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in Artworks.HTTPUtility.hit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(with: Foundation.URLRequest, decoder: Foundation.JSONDecoder) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Artworks.RemoteError&gt;"
+                  moduleName = "Artworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avii/Desktop/My%20Projects/Artworks/Artworks/Data/Remote/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BE8E09F-D95A-42F0-9F14-ABD3D9623A64"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "hit(with:decoder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F949073B-BFAE-481E-B85E-B5DB982E9D67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "hit(with:decoder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F949073B-BFAE-481E-B85E-B5DB982E9D67 - 7f521ad1ea54d7e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; Artworks.RemoteError in Artworks.HTTPUtility.hit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(with: Foundation.URLRequest, decoder: Foundation.JSONDecoder) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Artworks.RemoteError&gt;"
+                  moduleName = "Artworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avii/Desktop/My%20Projects/Artworks/Artworks/Data/Remote/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "F949073B-BFAE-481E-B85E-B5DB982E9D67 - 7f521ad1ea54d7e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; Artworks.RemoteError in Artworks.HTTPUtility.hit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(with: Foundation.URLRequest, decoder: Foundation.JSONDecoder) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Artworks.RemoteError&gt;"
+                  moduleName = "Artworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avii/Desktop/My%20Projects/Artworks/Artworks/Data/Remote/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D47E2125-D5C5-4052-A6EA-B0AF48FE9679"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "hit(with:decoder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "887FB1CE-4C52-4523-8AB3-B15AEF4E0C9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "hit(with:decoder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "887FB1CE-4C52-4523-8AB3-B15AEF4E0C9B - b12493b1dd66d246"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in Artworks.HTTPUtility.hit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(with: Foundation.URLRequest, decoder: Foundation.JSONDecoder) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Artworks.RemoteError&gt;"
+                  moduleName = "Artworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avii/Desktop/My%20Projects/Artworks/Artworks/Data/Remote/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "887FB1CE-4C52-4523-8AB3-B15AEF4E0C9B - b12493b1dd66d246"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in Artworks.HTTPUtility.hit&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(with: Foundation.URLRequest, decoder: Foundation.JSONDecoder) -&gt; Combine.AnyPublisher&lt;&#x3c4;_0_0, Artworks.RemoteError&gt;"
+                  moduleName = "Artworks"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/avii/Desktop/My%20Projects/Artworks/Artworks/Data/Remote/HTTPUtility.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12B44A49-0CF7-402C-9A73-695134E9C690"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artworks/Data/Remote/HTTPUtility.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "hit(with:decoder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
