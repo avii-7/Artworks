@@ -1,0 +1,1 @@
+"Artworks" is a SwiftUI project utilizing Combine and MVVM architecture. It fetches artworks from "https://api.artic.edu/api/v1/artworks," displays them in a dynamic list, and provides a detailed view for individual artworks.
