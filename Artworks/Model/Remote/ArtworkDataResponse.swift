@@ -28,8 +28,6 @@ extension ArtworkItemResponse {
     func convertToDomain() -> ArtworkItem {
         
         let imageUrlString =  "https://www.artic.edu/iiif/2/\(imageId)/full/843,/0/default.jpg"
-        
-        debugPrint(self)
 
         return ArtworkItem(id: id, title: title, imageUrlString: imageUrlString)
     }

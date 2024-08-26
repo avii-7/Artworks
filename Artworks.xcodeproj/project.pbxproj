@@ -21,6 +21,8 @@
 		869DFDCD2C7A53C000795815 /* ArtworkRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DFDCC2C7A53C000795815 /* ArtworkRemoteService.swift */; };
 		869DFDD02C7A56CD00795815 /* ArtworkFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DFDCF2C7A56CD00795815 /* ArtworkFactory.swift */; };
 		869DFDD22C7A573D00795815 /* ArtworkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869DFDD12C7A573D00795815 /* ArtworkItemView.swift */; };
+		86E41F5C2C7C8ABE00E5FE30 /* RemoteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E41F5B2C7C8ABE00E5FE30 /* RemoteRequest.swift */; };
+		86E41F5F2C7C8C8400E5FE30 /* ArtworkRemoteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E41F5E2C7C8C8400E5FE30 /* ArtworkRemoteRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		869DFDCC2C7A53C000795815 /* ArtworkRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkRemoteService.swift; sourceTree = "<group>"; };
 		869DFDCF2C7A56CD00795815 /* ArtworkFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkFactory.swift; sourceTree = "<group>"; };
 		869DFDD12C7A573D00795815 /* ArtworkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkItemView.swift; sourceTree = "<group>"; };
+		86E41F5B2C7C8ABE00E5FE30 /* RemoteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRequest.swift; sourceTree = "<group>"; };
+		86E41F5E2C7C8C8400E5FE30 /* ArtworkRemoteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkRemoteRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,9 +150,10 @@
 		869DFDC22C79E51200795815 /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				86E41F5D2C7C8C5E00E5FE30 /* Service */,
 				869DFDC32C79E53800795815 /* HTTPUtility.swift */,
-				869DFDCA2C7A51EA00795815 /* ArtworkRemote.swift */,
-				869DFDCC2C7A53C000795815 /* ArtworkRemoteService.swift */,
+				86E41F5B2C7C8ABE00E5FE30 /* RemoteRequest.swift */,
+				86E41F5E2C7C8C8400E5FE30 /* ArtworkRemoteRequest.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -159,6 +164,15 @@
 				869DFDCF2C7A56CD00795815 /* ArtworkFactory.swift */,
 			);
 			path = Factories;
+			sourceTree = "<group>";
+		};
+		86E41F5D2C7C8C5E00E5FE30 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				869DFDCA2C7A51EA00795815 /* ArtworkRemote.swift */,
+				869DFDCC2C7A53C000795815 /* ArtworkRemoteService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				869DFDCD2C7A53C000795815 /* ArtworkRemoteService.swift in Sources */,
+				86E41F5C2C7C8ABE00E5FE30 /* RemoteRequest.swift in Sources */,
 				869DFDBB2C79C46100795815 /* ArtworkDataResponse.swift in Sources */,
 				869DFDCB2C7A51EA00795815 /* ArtworkRemote.swift in Sources */,
 				869DFDC42C79E53800795815 /* HTTPUtility.swift in Sources */,
@@ -242,6 +257,7 @@
 				869DFDD22C7A573D00795815 /* ArtworkItemView.swift in Sources */,
 				869DFDAB2C79C28E00795815 /* ArtworkListView.swift in Sources */,
 				869DFDC02C79C76100795815 /* ArtworkViewModel.swift in Sources */,
+				86E41F5F2C7C8C8400E5FE30 /* ArtworkRemoteRequest.swift in Sources */,
 				869DFDA92C79C28E00795815 /* ArtworksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

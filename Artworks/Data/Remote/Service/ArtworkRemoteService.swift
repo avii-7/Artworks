@@ -17,14 +17,7 @@ class ArtworkRemoteService: ArtworkRemote {
     }
     
     func getArtworks() -> AnyPublisher<ArtworkResponse, RemoteError> {
-        
-        let urlString = "https://api.artic.edu/api/v1/artworks"
-        
-        guard let url = URL(string: urlString) else {
-            return Fail(error: RemoteError.badUrl).eraseToAnyPublisher()
-        }
-        
-        let urlRequest = URLRequest(url: url)
+        let urlRequest = ArtworkRemoteRequest.artworks
         return remoteUtility.hit(with: urlRequest)
     }
 }

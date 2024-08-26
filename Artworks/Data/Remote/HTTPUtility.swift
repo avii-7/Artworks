@@ -22,8 +22,13 @@ class HTTPUtility {
     private init() { }
     
     static let shared = HTTPUtility()
-
-    func hit<T: Decodable>(with request: URLRequest, decoder: JSONDecoder = JSONDecoder()) -> AnyPublisher<T, RemoteError> {
+    
+    func hit<T: Decodable>(with request: RemoteRequest, decoder: JSONDecoder = JSONDecoder()) -> AnyPublisher<T, RemoteError> {
+        
+        guard let request = try? prepareUrlRequest(from: request) else {
+            return Fail(error: RemoteError.badUrl).eraseToAnyPublisher()
+        }
+        
         return URLSession.shared.dataTaskPublisher(for: request)
             .tryMap { data, response in
                 guard
@@ -44,6 +49,27 @@ class HTTPUtility {
                 }
             })
             .eraseToAnyPublisher()
+    }
+    
+    func prepareUrlRequest(from request: RemoteRequest) throws -> URLRequest? {
+        let stringBaseUrl = request.baseUrl
+        
+        guard var url = URL(string: stringBaseUrl) else { return nil }
+        url.append(path: request.path, directoryHint: .notDirectory)
+        
+        if let queryItems = request.queryItems {
+            url.append(queryItems: queryItems)
+        }
+        
+        var urlRequest = URLRequest(url: url)
+        urlRequest.httpMethod = request.httpMethod.rawValue
+        urlRequest.allHTTPHeaderFields = request.headers
+        
+        if let body = request.body {
+            urlRequest.httpBody = try JSONEncoder().encode(body)
+        }
+        
+        return urlRequest
     }
 }
 
